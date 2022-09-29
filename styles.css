@@ -1,0 +1,12 @@
+#github-link, #youtube-link {
+    color: black;
+    padding-right: 10px;
+}
+
+#github-link:hover {
+    color: blue;
+}
+
+#youtube-link:hover {
+    color: red;
+}

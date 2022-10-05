@@ -1,10 +1,10 @@
-#github-link, #youtube-link, #linkdin-link {
+#github-link, #youtube-link, #linkdin-link, #email-link {
     color: black;
     padding-right: 10px;
 }
 
 #github-link:hover {
-    color: blue;
+    color: darkblue;
 }
 
 #youtube-link:hover {
@@ -13,4 +13,8 @@
 
 #linkdin-link:hover {
     color: rgb(13, 91, 186);
+}
+
+#email-link:hover {
+    color: blue;
 }

@@ -44,16 +44,24 @@
                 <!-- About Me Section-->
                 <div class="container min-vh-100">
                     <h1 class="display-5" id="scrollspyHeading1">About Me</h1>
-                        <p>
-                            Over the last two years I've been teaching myself programming through online resources such as edX and Harvard's free online computer science courses. 
-                            To date, I've completed and received certificates for CS50 Intro to Computer Science and CS50 web programming with Python and JavaScript. 
-                            Through these two courses I've learned coding languages such as C, Python, JavaScript, HTML, and CSS as well as how to use frameworks such as Django.
-                        </p>
-                        <p>
-                            Although I am still extremely new to programming, it is something that I have a passion for and want to continue to learn as much as I possibly can. 
-                            My current goal is to continue to learn and create projects that test the skills I've learned as well as push myself learn new skills, languages, and frame works while attempting to jump start my career with an internship or entry level position.
-                        </p>
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                Over the last two years I've been teaching myself programming through online resources such as edX and Harvard's free online computer science courses. 
+                                To date, I've completed and received certificates for CS50 Intro to Computer Science and CS50 Web Programming with Python and JavaScript. 
+                                Through these two courses I've learned coding languages such as C, Python, JavaScript, HTML, and CSS as well as how to use frameworks such as Django.
+                            </p>
+                            <p>
+                                Although I am still extremely new to programming, it is something that I have a passion for and want to continue to learn as much as I possibly can. 
+                                My current goal is to continue to learn and create projects that test the skills I've learned as well as push myself to learn new skills, languages, and frameworks while attempting to jump start my career with an internship or entry level position.
+                            </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="images/selfphoto.jpg" class="img-thumbnail" alt="Photo of Chase" style="max-height: 500px;">
+                        </div>
+                    </div>
                 </div>
+                <br>
 
                 <!-- Projects Section -->
                 <div class="container min-vh-100">
@@ -158,8 +166,9 @@
                             <!-- CS50WP Project 2: Commerce -->
                             <div class="col">
                                 <div class="card h-100">
+                                    <div class="card-header">CS50 Web Programming Project 2</div>
                                     <div class="card-body">
-                                        <h5 class="card-title">CS50 Web Programming: Commerce</h5>
+                                        <h5 class="card-title">Commerce</h5>
                                         <p class="card-text">
                                             This assignment is an eBay-like e-commerce auction site. Users are able to create listings, place bids, comment on,
                                             and add listings to a watchlist.
@@ -182,8 +191,9 @@
                             <!-- CS50WP Project 1: Wiki -->
                             <div class="col">
                                 <div class="card h-100">
+                                    <div class="card-header">CS50 Web Programming Project 1</div>
                                     <div class="card-body">
-                                        <h5 class="card-title">CS50 Web Programming: Wiki</h5>
+                                        <h5 class="card-title">Wiki</h5>
                                         <p class="card-text">
                                             This assignment is a wiki-like online encyclopedia. Users are able to search and find any previously entered entries and 
                                             view or edit those entries. Users are also able to add new entries that converts Markdown to HTML. 
@@ -206,8 +216,9 @@
                             <!-- CS50WP Project 0: Search-->
                             <div class="col">
                                 <div class="card h-100">
+                                    <div class="card-header">CS50 Web Programming Project 0</div>
                                     <div class="card-body">
-                                        <h5 class="card-title">CS50 Web Programming: Search</h5>
+                                        <h5 class="card-title">Search</h5>
                                         <p class="card-text">
                                             This assignment is a recreation of Google's front end for Google Search, Google Image Search, 
                                             and Google Advance Search. Users are able to type in a query into any of the search tools and 
@@ -231,8 +242,9 @@
                             <!-- CS50 14ers Checklist -->
                             <div class="col">
                                 <div class="card h-100">
+                                    <div class="card-header">CS50 Intro to Computer Science</div>
                                     <div class="card-body">
-                                        <h5 class="card-title">CS50 Intro to Computer Science Capstone: 14ers Checklist</h5>
+                                        <h5 class="card-title">Capstone: 14ers Checklist</h5>
                                         <p class="card-text">
                                             A website that allows users to keep track of which of Colorado's beautiful 14ers they
                                             have climbed. Users can view individual mountains and see other users that have climbed the 
@@ -273,11 +285,15 @@
                         </p>
                     <!-- Social Links -->
                     <div class="row">
-                        <div class="col-md-1" id="email-link">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                            </svg>
+                        <!-- Email Link -->
+                        <div class="col-md-1">
+                            <a href="mailto:cypress.spoon-00@icloud.com" id="email-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg>
+                            </a>
                         </div>
+                        <!-- Linkdin Link-->
                         <div class="col-md-1">
                             <a href="https://www.linkedin.com/in/chase-taylor-8369954b/" id="linkdin-link">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
